@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dulieu/tho/
+dulieu/xuly/
+mohinh/*.joblib
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
