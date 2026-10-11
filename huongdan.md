@@ -4,7 +4,7 @@ Backend Python cho Project 02 của đề học máy. Dữ liệu 20 Newsgroups;
 
 ## Chạy từ máy mới
 
-Yêu cầu Python 3.12. Chạy các lệnh sau tại thư mục gốc của repo backend:
+Yêu cầu Python 3.12. Chạy các lệnh sau tại thư mục gốc của repo:
 
 ```powershell
 py -3.12 -m venv .venv
@@ -15,7 +15,7 @@ py -3.12 -m venv .venv
 
 Lần đầu, `chuanbi` dùng `fetch_20newsgroups` của scikit-learn và cần mạng. Tài liệu gốc không được đưa vào Git. Có thể chạy từng bước `chuanbi`, `huanluyen`, `danhgia` riêng. `huanluyen` lưu Pipeline và ma trận sparse bằng joblib. API chỉ đọc model đã lưu, không fit khi nhận request.
 
-Frontend React nằm ở repo riêng của tài khoản `okkk525-99`. Tại thư mục gốc của repo frontend, chạy `npm ci`, `npm run dev`; mở `http://localhost:5175`. API chạy trên `http://127.0.0.1:4003`; Vite chuyển `/api` tới API.
+Frontend React ở thư mục `fe/` trong cùng repo. Tại `fe/`, chạy `npm ci`, `npm run dev`; mở `http://localhost:5175`. API chạy trên `http://127.0.0.1:4003`; Vite chuyển `/api` tới API.
 
 ## Quy trình và rò rỉ dữ liệu
 
